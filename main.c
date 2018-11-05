@@ -172,7 +172,7 @@ int main(void)
 	(strcmp(s1, s2) || u1 != u2) ? printf("%sft_strdup failed%s\n", RED, RESET) :
 					 				printf("%sft_strdup passed%s\n", GREEN, RESET);
 
-	printf("\n________ ft_puts ___________\n"); // not working so far
+	printf("\n________ ft_puts ___________\n");
 	char test12[7] = "strlen";
 	printf("- - ft_puts - -\n");
 	printf("ft_puts return -> %d\n", d1 = ft_puts(test12));
