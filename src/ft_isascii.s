@@ -1,5 +1,6 @@
 global _ft_isascii
 
+section .text
 _ft_isascii:
 	mov	rax, 0
 	cmp rdi, 0x00 ; -> 0 nul

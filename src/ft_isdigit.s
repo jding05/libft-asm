@@ -1,5 +1,6 @@
 global _ft_isdigit
 
+section .text
 _ft_isdigit:
 	mov	rax, 0 ; mov destination before source [intel], move source before the destination [AT&T]
 	cmp rdi, 0x30 ; -> 48 0 [first paramter]

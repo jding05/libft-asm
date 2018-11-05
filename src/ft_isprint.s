@@ -1,5 +1,6 @@
 global _ft_isprint
 
+section .text
 _ft_isprint:
 	cmp rdi, 0x20 ; -> 32 sp
 	jl nonprint
