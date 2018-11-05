@@ -1,0 +1,3 @@
+this is the file to test ft_cat
+this is second line
+now -> we should look at ft_cat with fd = 0
